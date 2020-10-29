@@ -1,0 +1,25 @@
+{
+  "name": "smll/framework",
+  "description": "Smll Framework Main Features",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ali Tokmakcı",
+      "email": "alitokmakci@outlook.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "symfony/console": "^5.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smll\\": "src/"
+    },
+    "files": [
+        "src/Helpers/helpers.php"
+    ]
+  }
+}
